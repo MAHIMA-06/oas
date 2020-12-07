@@ -1,0 +1,72 @@
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasControllerTest (OasControllerTest.java:25) - [START] testNameAddSuccess() 
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: Furniture
+ERROR | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasControllerTest (OasControllerTest.java:38) - [START] testNameAddFailed() 
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: null
+ERROR | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasControllerTest (OasControllerTest.java:44) - [START]  testDescAddFailed()
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: null
+ERROR | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasControllerTest (OasControllerTest.java:32) - [START] testDescriptionAddSuccess() 
+INFO  | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: It includes item such as chair,table,almirah,etc
+ERROR | 2020-12-07 12:16:01 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasControllerTest (OasControllerTest.java:25) - [START] testNameAddSuccess() 
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: Furniture
+ERROR | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasControllerTest (OasControllerTest.java:38) - [START] testNameAddFailed() 
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: null
+ERROR | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasControllerTest (OasControllerTest.java:44) - [START]  testDescAddFailed()
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: null
+ERROR | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasControllerTest (OasControllerTest.java:32) - [START] testDescriptionAddSuccess() 
+INFO  | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: It includes item such as chair,table,almirah,etc
+ERROR | 2020-12-07 12:19:33 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+INFO  | 2020-12-07 13:30:00 | [main] presentation.OasControllerTest (OasControllerTest.java:25) - [START] testNameAddSuccess() 
+INFO  | 2020-12-07 13:30:00 | [main] presentation.OasControllerTest (OasControllerTest.java:25) - [START] testNameAddSuccess() 
+INFO  | 2020-12-07 13:30:00 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: Furniture
+INFO  | 2020-12-07 13:30:00 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: Furniture
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasControllerTest (OasControllerTest.java:38) - [START] testNameAddFailed() 
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasControllerTest (OasControllerTest.java:38) - [START] testNameAddFailed() 
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: null
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: null
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasControllerTest (OasControllerTest.java:44) - [START]  testDescAddFailed()
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasControllerTest (OasControllerTest.java:44) - [START]  testDescAddFailed()
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: null
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: null
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: id to load is required for loading
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasControllerTest (OasControllerTest.java:32) - [START] testDescriptionAddSuccess() 
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasControllerTest (OasControllerTest.java:32) - [START] testDescriptionAddSuccess() 
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: It includes item such as chair,table,almirah,etc
+INFO  | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: It includes item such as chair,table,almirah,etc
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+ERROR | 2020-12-07 13:30:01 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.cg.oas.entity.CategoryEntity. Expected: class java.lang.Integer, got class java.lang.String
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasControllerTest (OasControllerTest.java:25) - [START] testNameAddSuccess() 
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: Furniture
+ERROR | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasControllerTest (OasControllerTest.java:38) - [START] testNameAddFailed() 
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: null
+ERROR | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasControllerTest (OasControllerTest.java:44) - [START]  testDescAddFailed()
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: null
+ERROR | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasControllerTest (OasControllerTest.java:32) - [START] testDescriptionAddSuccess() 
+INFO  | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: It includes item such as chair,table,almirah,etc
+ERROR | 2020-12-07 13:32:28 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasControllerTest (OasControllerTest.java:25) - [START] testNameAddSuccess() 
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: Furniture
+ERROR | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasControllerTest (OasControllerTest.java:38) - [START] testNameAddFailed() 
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:19) - Adding Name for category: null
+ERROR | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:25) - NameIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasControllerTest (OasControllerTest.java:44) - [START]  testDescAddFailed()
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: null
+ERROR | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasControllerTest (OasControllerTest.java:32) - [START] testDescriptionAddSuccess() 
+INFO  | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:32) - Adding Description for Category: It includes item such as chair,table,almirah,etc
+ERROR | 2020-12-07 16:04:45 | [main] presentation.OasController (OasController.java:38) - DescriptionIsBlankException: java.lang.IllegalStateException: Session/EntityManager is closed
